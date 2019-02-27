@@ -1,10 +1,6 @@
-import java.time.Instant;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
+package HW;
 
+import java.util.ArrayList;
 public class MainClass {
 
 
@@ -24,7 +20,7 @@ public class MainClass {
 
 
         ArrayList<Human> humans = new ArrayList<Human>();
-        for (int i = 0 ; i < countHumans ; i++){
+        for (int i = 0 ; i < countHumans-1 ; i++){
             Human human = new Human();
             //TODO re-generate setters to builder template
             human.setSex(Generator.getRandomSex());
@@ -35,17 +31,16 @@ public class MainClass {
             human.setRegion(Generator.getRandomStringFromList(regions));
             human.setTown(Generator.getRandomStringFromList(towns));
             human.setStreet(Generator.getRandomStringFromList(streets));
-            human.setBithdayDate(Generator.getRandomDate());
+            human.setBithdayDate(Generator.getRandomDate(InputParameters.getMinYearOfBirth()));
             human.setAge(Generator.getAgeByDate(human.getBithdayDate()));
-            human.setInn(Generator.getRandomINN());
+            human.setInn(Generator.getRandomINN(InputParameters.getRegionINN()));
             human.setMailIndex(Generator.getRandomNumeric(InputParameters.getStartRangeMailIndex(),InputParameters.getEndRangeMailIndex()));
-            human.setNumberHouse(Generator.getRandomNumberHouse());
-            human.setNumberFlat(Generator.getRandomNumeric(1));
+            human.setNumberHouse(Generator.getRandomNumberHouse(InputParameters.getMaxNumberHouse()));
+            human.setNumberFlat(Generator.getRandomNumeric(1,InputParameters.getMaxNumberFlat()));
             humans.add(human);
         }
-
-        ExcelCreator excelCreator = new ExcelCreator(humans);
-        PdfCreator pdfCreator = new PdfCreator(humans);
+        ExcelCreator.createExcelTable(humans,InputParameters.getListNamesColumn());
+        PdfCreator.createPdfDocument(humans,InputParameters.getListNamesColumn());
     }
     MainClass(){
 
