@@ -1,12 +1,16 @@
 package HW;
 
+import com.itextpdf.text.DocumentException;
+
+import java.io.IOException;
 import java.util.ArrayList;
 public class MainClass {
 
 
     public static void main(String[] args) {
         FileLoader fileLoader = new FileLoader();
-        int countHumans = Generator.getRandomNumeric(1,30);
+        int countHumans = Generator.getRand(1,30);
+        System.out.println("COUNT HUMANS = " + countHumans);
         ArrayList<String> maleNames = fileLoader.getListByFileName(InputParameters.getFileMaleNames());
         ArrayList<String> femaleNames = fileLoader.getListByFileName(InputParameters.getFileFemaleNames());
         ArrayList<String> maleSurnames = fileLoader.getListByFileName(InputParameters.getFileMaleSurnames());
@@ -20,7 +24,7 @@ public class MainClass {
 
 
         ArrayList<Human> humans = new ArrayList<Human>();
-        for (int i = 0 ; i < countHumans-1 ; i++){
+        for (int i = 0 ; i < countHumans; i++){
             Human human = new Human();
             //TODO re-generate setters to builder template
             human.setSex(Generator.getRandomSex());
@@ -34,13 +38,20 @@ public class MainClass {
             human.setBithdayDate(Generator.getRandomDate(InputParameters.getMinYearOfBirth()));
             human.setAge(Generator.getAgeByDate(human.getBithdayDate()));
             human.setInn(Generator.getRandomINN(InputParameters.getRegionINN()));
-            human.setMailIndex(Generator.getRandomNumeric(InputParameters.getStartRangeMailIndex(),InputParameters.getEndRangeMailIndex()));
+            human.setMailIndex(Generator.getRand(InputParameters.getStartRangeMailIndex(),InputParameters.getEndRangeMailIndex()));
             human.setNumberHouse(Generator.getRandomNumberHouse(InputParameters.getMaxNumberHouse()));
-            human.setNumberFlat(Generator.getRandomNumeric(1,InputParameters.getMaxNumberFlat()));
+            human.setNumberFlat(Generator.getRand(1,InputParameters.getMaxNumberFlat()));
             humans.add(human);
         }
         ExcelCreator.createExcelTable(humans,InputParameters.getListNamesColumn());
-        PdfCreator.createPdfDocument(humans,InputParameters.getListNamesColumn());
+
+        try {
+            PdfCreator.createPdfDocument(humans,InputParameters.getListNamesColumn());
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     MainClass(){
 

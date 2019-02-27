@@ -6,28 +6,26 @@ import java.time.ZoneId;
 import java.util.*;
 
 public class Generator {
-    public static int getRandomNumeric(int startRange){
-        return getRandomNumeric(startRange,Integer.MAX_VALUE-1);
+    public static int getRand(int min,int max){
+        int diff = max - min;
+        Random random = new Random();
+        int i = random.nextInt(diff + 1);
+        i += min;
+        return i;
     }
-
-    public static int getRandomNumeric(int startRange,int endRange){
-        Random rnd = new Random();
-        return  rnd.nextInt(endRange - startRange +1 ) + startRange;
-    }
-
     public static String getRandomStringFromList(ArrayList<String> inputList){
 
-        return inputList.get(getRandomNumeric(0,inputList.size()-1));
+        return inputList.get(getRand(0,inputList.size()-1));
     }
     public static LocalDate getRandomDate(int minYear){
         Calendar calendar = new GregorianCalendar();
-        int rYear = getRandomNumeric(minYear,Calendar.getInstance().get(Calendar.YEAR));
+        int rYear = getRand(minYear,Calendar.getInstance().get(Calendar.YEAR));
         int rMonth = (rYear == Calendar.getInstance().get(Calendar.YEAR))?
-                getRandomNumeric(0,Calendar.getInstance().get(Calendar.MONTH)):
-                getRandomNumeric(0,11);
+                getRand(0,Calendar.getInstance().get(Calendar.MONTH)):
+                getRand(0,11);
         int rDay = (rYear == Calendar.getInstance().get(Calendar.YEAR) && ( rMonth == Calendar.getInstance().get(Calendar.MONTH)) )?
-                getRandomNumeric(0,Calendar.getInstance().get(Calendar.DAY_OF_MONTH)):
-                getRandomNumeric(0,30);
+                getRand(0,Calendar.getInstance().get(Calendar.DAY_OF_MONTH)):
+                getRand(0,30);
         calendar.set(rYear,
                 rMonth,
                 rDay
@@ -42,8 +40,8 @@ public class Generator {
     public static String getRandomINN(int nRegion){
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(nRegion);
-        stringBuilder.append(String.format("%02d",getRandomNumeric(10, 99)));
-        stringBuilder.append(String.format("%06d",getRandomNumeric(1, 999999)));
+        stringBuilder.append(String.format("%02d",getRand(10, 99)));
+        stringBuilder.append(String.format("%06d",getRand(1, 999999)));
 
 
         int[] COEF_1 = {7, 2, 4, 10, 3, 5, 9, 4, 6, 8};
@@ -68,16 +66,16 @@ public class Generator {
     }
     public static SEX getRandomSex(){
 
-        return (getRandomNumeric(0) % 2 == 0)?SEX.MALE:SEX.FEMALE;
+        return (getRand(0,Integer.MAX_VALUE-1) % 2 == 0)?SEX.MALE:SEX.FEMALE;
     }
     public static String getRandomNumberHouse(int maxNumberHouse){
-        int nHouse = getRandomNumeric(0,maxNumberHouse-1);
+        int nHouse = getRand(0,maxNumberHouse-1);
         // сделаю вероятность выпадения дробного номера дома 1 к 5
         if (nHouse % 5 == 0){
-            int i1 = getRandomNumeric(0, maxNumberHouse-1);
-            int i2 = getRandomNumeric(0, i1);
+            int i1 = getRand(0, maxNumberHouse-1);
+            int i2 = getRand(0, i1);
             return  i1 + " / "+ i2;
         }
-        return String.valueOf(getRandomNumeric(0, maxNumberHouse-1));
+        return String.valueOf(getRand(0, maxNumberHouse-1));
     }
 }

@@ -7,30 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b291d5-21e0-4575-93e5-69785ef2c80e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/ExcelCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/FileLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/InputParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/PdfCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExcelCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FileLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InputParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PdfCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SEX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/SEX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExcelCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InputParameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PdfCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SEX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW/PdfCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/PdfCreator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW/Human.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,12 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1459#1466#0" expanded="true" />
               </folding>
             </state>
@@ -85,27 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HW/FileLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -113,29 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW/PdfCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfPTable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HW/ExcelCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="473">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,8 +119,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ExcelCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/PdfCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HW/MainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HW/PdfCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HW/MainClass.java" />
       </list>
     </option>
   </component>
@@ -225,6 +160,12 @@
             <path>
               <item name="FT_HW_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="FT_HW_3" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FT_HW_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FT_HW_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,14 +180,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FT_HW_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FT_HW_3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HW" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,9 +188,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551276211621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551281048717" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/FT_HW_3_jar" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -297,6 +230,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551212253165</updated>
     </task>
+    <task id="LOCAL-00001" summary="pre-release">
+      <created>1551276256267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551276256267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -322,14 +263,14 @@
       <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49946696" weight="0.17617108" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.307109" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.49478674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.307109" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.37630332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.49478674" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.307109" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32985783" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33706722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -341,8 +282,34 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pre-release" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre-release" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HW/Generator.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>getRand(0,2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getRand(0,inputList.size()-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>getInnIP();</expression-string>
         <language-id>JAVA</language-id>
@@ -375,24 +342,6 @@
       </expression>
       <expression>
         <expression-string>human.getBithdayDate()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rYear == Calendar.getInstance().get(Calendar.YEAR)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int r1 = Generator.getRandomNumeric(0,4590);
-int r2 = Generator.getRandomNumeric(0,4590);
-r1 == r2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int r1 = Generator.getRandomNumeric(0,4590);
-int r2 = Generator.getRandomNumeric(0,4590);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -471,16 +420,6 @@ int r2 = Generator.getRandomNumeric(0,4590);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HW/PdfCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HW/SEX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -488,24 +427,96 @@ int r2 = Generator.getRandomNumeric(0,4590);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HW/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="e#1459#1466#0" expanded="true" />
+            <element signature="e#16097#16103#0" expanded="true" />
+            <element signature="e#16130#16136#0" expanded="true" />
+            <element signature="e#16138#16144#0" expanded="true" />
+            <element signature="e#16153#16159#0" expanded="true" />
+            <element signature="e#16388#16394#0" expanded="true" />
+            <element signature="e#16421#16427#0" expanded="true" />
+            <element signature="e#16429#16435#0" expanded="true" />
+            <element signature="e#16450#16456#0" expanded="true" />
+            <element signature="e#16685#16691#0" expanded="true" />
+            <element signature="e#16718#16724#0" expanded="true" />
+            <element signature="e#16726#16732#0" expanded="true" />
+            <element signature="e#16745#16751#0" expanded="true" />
+            <element signature="e#16980#16986#0" expanded="true" />
+            <element signature="e#17013#17019#0" expanded="true" />
+            <element signature="e#17021#17027#0" expanded="true" />
+            <element signature="e#17035#17041#0" expanded="true" />
+            <element signature="e#17291#17297#0" expanded="true" />
+            <element signature="e#17307#17313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fonts/my_font.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/HW/FileLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/HW/Human.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/HW/PdfCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/HW/InputParameters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-709">
+          <folding>
+            <element signature="e#0#3307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HW/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HW/PdfCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HW/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1459#1466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -516,7 +527,7 @@ int r2 = Generator.getRandomNumeric(0,4590);</expression-string>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>FT_HW_3:jar</last-edited>
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

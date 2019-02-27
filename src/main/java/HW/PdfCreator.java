@@ -14,10 +14,9 @@ import java.util.ArrayList;
 
 class PdfCreator {
 
-    static void createPdfDocument(ArrayList<Human> humans, ArrayList<String> columnsList){
-        try
-        {
-            Document document = new Document(PageSize.A4.rotate(), 10f, 10f, 10f, 0f);
+    static void createPdfDocument(ArrayList<Human> humans, ArrayList<String> columnsList)throws DocumentException,
+            IOException{
+
             PdfPTable table = new PdfPTable(new float[] {1,1,1,0.5f,0.4f,1,0.8f,0.8f,1,1,1.5f,1,0.6f,0.6f});//new float[] {2, 2, 2, 0.8f, 0.8f, 1, 1, 1, 1.5f, 2, 2, 2, 1,1});
             table.setWidthPercentage(100);
 
@@ -58,6 +57,7 @@ class PdfCreator {
             }
 
             File outFile = new File("users.pdf");
+            Document document = new Document(PageSize.A4.rotate(), 10f, 10f, 10f, 0f);
             PdfWriter.getInstance(document, new FileOutputStream(outFile));
             document.open();
             document.add(table);
@@ -65,10 +65,6 @@ class PdfCreator {
 
             System.out.println("PDF файл создан. Путь:" +outFile.getAbsolutePath());
 
-        } catch (DocumentException | IOException e)
-        {
-            e.printStackTrace();
-        }
     }
 
     private static PdfPCell getPDFPcell(String text){
